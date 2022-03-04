@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> details of items </title>
+</head>
+<body>
+  <h1> different types of items of crops</h1>
+   
+  	<div>
+  		<label for="almond without sheels">almond without sheels</label>
+  		<input type="crops" name="almond without sheels-choice" value="farming-1">
+  		<input type="crops" name="almond without sheels-choice" value="number of items">
+  		<br>
+
+  		<label for="almonds,shelled">almomd,shelled</label>
+  		<input type="crops" name="almonds,shelled-choice" value="farming-2">
+  		<input type="crops" name="almonds,shelled" value="number of items">
+  		<br>
+
+  		<label for="almond without sheels">almond without sheels</label>
+  		<input type="crops" name="almond without sheels-choice" value="farming-3">
+  		<input type="crops" name="almond without sheels-choice" value="number of items">
+  		<br>
+
+  		<label for="almonds,shelled">almonds,shelled</label>
+  		<input type="crops" name="almonds,shelled-choice" value="farming-4">
+  		<input type="crops" name="almonds,shelled" value="number of items">
+  		<br>
+
+  	<section class="hero">
+    <div class="hero-content">
+      <h1>Let's make a model for farmers</h1>
+      <h3>sign up now</h3>
+      <a href="#"id="button" class="button">Click Me</a>
+
+    </div>
+  </section>
+  		
+
+<!--Model section-->
+   <div class ="bg-modal">
+      <div class="modal-content">
+
+        <div class="close">+</div>
+       <img scr="kropgains image.png" height="100px" width="200px" alt="there was an image of items">
+        
+
+    <form action="">
+      <input type="text" placeholder="name">
+      <input type="text" placeholder="E-MAIL">
+      <a href="" class="button">submit</a>
+      
+    </form> 
+
+
+
+    <style type="text/css">
+      .bg-modal{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: center;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: opacity 0.3sec;
+
+    }
+
+     .modal-content{
+      width: 500px;
+      height: 300px;
+      background-color: white;
+      border-radius: 4px;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+
+
+
+    }
+
+.input{
+  display: block;
+
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 35px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+
+
+
+<script>
+document.getElementById("button").addEventListener("click", function() {
+  document.getElementById(".bg-modal").display: flex;
+});
+.document.querySelector(".close").removeEventListener:'click',function{
+document.querySelector(".bg-modal").style.display=none;)}
+
+</script>
+
+
+  
+</body>
+<html>
+
